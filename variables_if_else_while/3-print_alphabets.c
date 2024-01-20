@@ -21,4 +21,4 @@ for (upper = 'A'; upper <= 'Z'; upper++)
 	}
 putchar('\n');
 return (0);
-}	
+}
