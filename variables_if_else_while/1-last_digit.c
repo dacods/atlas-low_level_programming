@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/*
+ * main - This will show if the last digit is great than or less than 5.
+ */
 int main(void)
 {
 	int n;
