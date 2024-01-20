@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /*
  * main - Show if the last digit is great than or less than 5 or equal to 0
  *
  * return: Always 0.
  */
+
 int main(void)
 {
 	int n;
