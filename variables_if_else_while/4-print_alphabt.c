@@ -5,17 +5,21 @@
  *
  * Return: Always 0.
  */
-int main(void){
+int main(void)
+{
 char letters;
 
-for (letters = 'a'; letters <= 'z'; letters++){
-	if (letters == 'q' || letters == 'e'){
-		continue;
-	}
-	else{
-		putchar(letters);
-	}
-	}
+for (letters = 'a'; letters <= 'z'; letters++)
+{
+if (letters == 'q' || letters == 'e')
+{
+continue;
+}
+else
+{
+putchar(letters);
+}
+}
 putchar('\n');
 return (0);
 }
