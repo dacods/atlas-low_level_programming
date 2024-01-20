@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-/*
- * main - Show if the last digit is great than or less than 5 or equal to 0
+/**
+ * main - Prints the last digit  of a rng
+ *        and whether it is greater than 5, less than 6, or 0.
  *
- * return: Always 0.
+ * Return: Always 0.
  */
-
 int main(void)
 {
 	int n;
