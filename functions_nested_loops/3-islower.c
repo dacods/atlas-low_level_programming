@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - replaces c with a 1 if present and 0 if not.
- *
+ * @c: this is a letter innput.
  * Return: if c is lower return 1 and 0 if not.
  */
 
