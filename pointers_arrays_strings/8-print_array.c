@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_array - prints the elements of an array of integers 
+ * print_array - prints the elements of an array of integers
  * @a: integer
  * @n: integer
  * Return: 0
