@@ -3,8 +3,8 @@
 
 /**
  * main - program that prints its name even if changed
- * argc: strings
- * argv: program name
+ * @argc: strings
+ * @argv: program name
  * Return: program name
  */
 
