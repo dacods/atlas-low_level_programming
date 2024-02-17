@@ -1,69 +1,51 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
  * str_concat - concatenates two strings
  * @s1: string one
  * @s2: string two
  * Return: 0
  */
-
 char *str_concat(char *s1, char *s2)
 {
-	int length1 = 0;
-	int length2 = 0;
-	char *temp = s1, *temp2 = s2, *joined, *result;
+	size_t length1 = 0;
+	size_t length2 = 0;
+	char *joined, *result;
 
 	if (s1 == NULL)
 	{
 		s1 = "";
 	}
-
 	if (s2 == NULL)
 	{
 		s2 = "";
 	}
 
-	while (*temp != '\0')
+	while (s1[length1] != '\0')
 	{
 		length1++;
-		temp++;
 	}
-
-	while (*temp2 != '\0')
+	while (s2[length2] != '\0')
 	{
 		length2++;
-		temp2++;
 	}
 
-	joined = malloc((length1 + length2 + 1) * sizeof(char));
+	result = malloc((length1 + length2 + 1) * sizeof(char));
 
-	if (joined == NULL)
+	if (result == NULL)
 	{
 		return (NULL);
 	}
+	joined = result;
 
-	result = joined;
-
-	temp = s1;
-
-	while (*temp != '\0')
+	while (*s1 != '\0')
 	{
-		*joined = *temp;
-		temp++;
-		joined++;
+		*joined++ = *s1++;
 	}
-
-	temp2 = s2;
-
-	while (*temp2 != '\0')
+	while (*s2 != '\0')
 	{
-		*joined = *temp2;
-		temp2++;
-		joined++;
+		*joined++ = *s2++;
 	}
-
 	*joined = '\0';
-
 	return (result);
 }
