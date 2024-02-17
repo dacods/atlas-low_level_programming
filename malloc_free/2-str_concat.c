@@ -12,10 +12,7 @@ char *str_concat(char *s1, char *s2)
 {
 	int length1 = 0;
 	int length2 = 0;
-	char *temp = s1;
-	char *temp2 = s2;
-	char *joined;
-	char *result;
+	char *temp = s1, *temp2 = s2, *joined, *result;
 
 	if (s1 == NULL)
 	{
@@ -69,4 +66,4 @@ char *str_concat(char *s1, char *s2)
 	*joined = '\0';
 
 	return (result);
-}			
+}
