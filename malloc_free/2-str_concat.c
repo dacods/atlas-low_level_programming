@@ -15,6 +15,7 @@ char *str_concat(char *s1, char *s2)
 	char *temp = s1;
 	char *temp2 = s2;
 	char *joined;
+	char *result;
 
 	if (s1 == NULL)
 	{
@@ -45,6 +46,8 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 
+	result = joined;
+
 	temp = s1;
 
 	while (*temp != '\0')
@@ -65,5 +68,5 @@ char *str_concat(char *s1, char *s2)
 
 	*joined = '\0';
 
-	return (joined - (length1 + length2));
+	return (result);
 }			
