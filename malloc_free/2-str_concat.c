@@ -36,7 +36,7 @@ char *str_concat(char *s1, char *s2)
 		temp2++;
 	}
 
-	joined = (char *)malloc((length1 + length2 + 1) * sizeof(char));
+	joined = malloc((length1 + length2 + 1) * sizeof(char));
 
 	if (joined == NULL)
 	{
