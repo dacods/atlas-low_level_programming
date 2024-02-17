@@ -40,9 +40,9 @@ char *str_concat(char *s1, char *s2)
 
 	joined = (char *)malloc((length1 + length2 + 1) * sizeof(char));
 
-	if (joined == 0)
+	if (joined == NULL)
 	{
-		return (0);
+		return (NULL);
 	}
 
 	temp = s1;
