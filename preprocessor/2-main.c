@@ -2,12 +2,11 @@
 
 /**
  * main - prints the file name it was compiled from
- * @argc: name
- * @argv: array
+ *
  * Return: file name
  */
 
-int main()
+int main(void)
 {
 	printf("%s\n", __FILE__);
 	return (0);
