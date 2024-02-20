@@ -3,7 +3,7 @@
 
 /**
  * _calloc - allocates memory for an array
- * @nmeb: integer
+ * @nmemb: integer
  * @size: integer
  * Return: 0
  */
@@ -23,7 +23,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	
+
 	total = nmemb * size;
 
 	mem = malloc(total);
