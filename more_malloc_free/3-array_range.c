@@ -3,9 +3,9 @@
 
 /**
  * array_range - creates an array of integers
- * @min:
- * @max:
- * Return:
+ * @min: minimum
+ * @max: maximum
+ * Return: 0
  */
 
 int *array_range(int min, int max)
