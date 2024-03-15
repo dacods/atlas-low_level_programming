@@ -3,7 +3,7 @@
 /**
  * dlistint_len - Function that returns the number of elements in a linked list
  * @h: head
- * Return:
+ * Return: count
  */
 
 size_t dlistint_len(const dlistint_t *h)
