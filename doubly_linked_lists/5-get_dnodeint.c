@@ -4,7 +4,7 @@
  * get_dnodeint_at_index - Function that retruns the nth node of a list
  * @head: head
  * @index: integer
- * Return:
+ * Return: 0
  */
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
