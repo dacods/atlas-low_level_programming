@@ -3,7 +3,7 @@
 /**
  * binary_search - Function that searches for a value using binary search
  * @array: Pointer to the first element of the array to search in
- * @size Number of elements
+ * @size: Number of elements
  * @value: Value to search for
  * Return: Found Value or -1 if not found
  */
